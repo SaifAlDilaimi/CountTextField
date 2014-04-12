@@ -1,0 +1,486 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		A68DD71418F9914D002EEE04 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A68DD71318F9914D002EEE04 /* Foundation.framework */; };
+		A68DD71618F9914D002EEE04 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A68DD71518F9914D002EEE04 /* CoreGraphics.framework */; };
+		A68DD71818F9914E002EEE04 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A68DD71718F9914E002EEE04 /* UIKit.framework */; };
+		A68DD71E18F9914E002EEE04 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = A68DD71C18F9914E002EEE04 /* InfoPlist.strings */; };
+		A68DD72018F9914E002EEE04 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = A68DD71F18F9914E002EEE04 /* main.m */; };
+		A68DD72418F9914E002EEE04 /* CTFAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = A68DD72318F9914E002EEE04 /* CTFAppDelegate.m */; };
+		A68DD72718F9914E002EEE04 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A68DD72518F9914E002EEE04 /* Main.storyboard */; };
+		A68DD72A18F9914E002EEE04 /* CTFViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A68DD72918F9914E002EEE04 /* CTFViewController.m */; };
+		A68DD72C18F9914E002EEE04 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A68DD72B18F9914E002EEE04 /* Images.xcassets */; };
+		A68DD73318F9914E002EEE04 /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A68DD73218F9914E002EEE04 /* XCTest.framework */; };
+		A68DD73418F9914E002EEE04 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A68DD71318F9914D002EEE04 /* Foundation.framework */; };
+		A68DD73518F9914E002EEE04 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A68DD71718F9914E002EEE04 /* UIKit.framework */; };
+		A68DD73D18F9914E002EEE04 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = A68DD73B18F9914E002EEE04 /* InfoPlist.strings */; };
+		A68DD73F18F9914E002EEE04 /* CountTextFieldTests.m in Sources */ = {isa = PBXBuildFile; fileRef = A68DD73E18F9914E002EEE04 /* CountTextFieldTests.m */; };
+		A68DD74B18F991B1002EEE04 /* CTFTextField.m in Sources */ = {isa = PBXBuildFile; fileRef = A68DD74A18F991B1002EEE04 /* CTFTextField.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		A68DD73618F9914E002EEE04 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = A68DD70818F9914D002EEE04 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = A68DD70F18F9914D002EEE04;
+			remoteInfo = CountTextField;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		A68DD71018F9914D002EEE04 /* CountTextField.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CountTextField.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		A68DD71318F9914D002EEE04 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		A68DD71518F9914D002EEE04 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		A68DD71718F9914E002EEE04 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		A68DD71B18F9914E002EEE04 /* CountTextField-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "CountTextField-Info.plist"; sourceTree = "<group>"; };
+		A68DD71D18F9914E002EEE04 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		A68DD71F18F9914E002EEE04 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		A68DD72118F9914E002EEE04 /* CountTextField-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "CountTextField-Prefix.pch"; sourceTree = "<group>"; };
+		A68DD72218F9914E002EEE04 /* CTFAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CTFAppDelegate.h; sourceTree = "<group>"; };
+		A68DD72318F9914E002EEE04 /* CTFAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CTFAppDelegate.m; sourceTree = "<group>"; };
+		A68DD72618F9914E002EEE04 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		A68DD72818F9914E002EEE04 /* CTFViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CTFViewController.h; sourceTree = "<group>"; };
+		A68DD72918F9914E002EEE04 /* CTFViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CTFViewController.m; sourceTree = "<group>"; };
+		A68DD72B18F9914E002EEE04 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		A68DD73118F9914E002EEE04 /* CountTextFieldTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CountTextFieldTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		A68DD73218F9914E002EEE04 /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
+		A68DD73A18F9914E002EEE04 /* CountTextFieldTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "CountTextFieldTests-Info.plist"; sourceTree = "<group>"; };
+		A68DD73C18F9914E002EEE04 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		A68DD73E18F9914E002EEE04 /* CountTextFieldTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CountTextFieldTests.m; sourceTree = "<group>"; };
+		A68DD74918F991B1002EEE04 /* CTFTextField.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CTFTextField.h; sourceTree = "<group>"; };
+		A68DD74A18F991B1002EEE04 /* CTFTextField.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CTFTextField.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		A68DD70D18F9914D002EEE04 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A68DD71618F9914D002EEE04 /* CoreGraphics.framework in Frameworks */,
+				A68DD71818F9914E002EEE04 /* UIKit.framework in Frameworks */,
+				A68DD71418F9914D002EEE04 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A68DD72E18F9914E002EEE04 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A68DD73318F9914E002EEE04 /* XCTest.framework in Frameworks */,
+				A68DD73518F9914E002EEE04 /* UIKit.framework in Frameworks */,
+				A68DD73418F9914E002EEE04 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		A68DD70718F9914D002EEE04 = {
+			isa = PBXGroup;
+			children = (
+				A68DD71918F9914E002EEE04 /* CountTextField */,
+				A68DD73818F9914E002EEE04 /* CountTextFieldTests */,
+				A68DD71218F9914D002EEE04 /* Frameworks */,
+				A68DD71118F9914D002EEE04 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		A68DD71118F9914D002EEE04 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				A68DD71018F9914D002EEE04 /* CountTextField.app */,
+				A68DD73118F9914E002EEE04 /* CountTextFieldTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		A68DD71218F9914D002EEE04 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				A68DD71318F9914D002EEE04 /* Foundation.framework */,
+				A68DD71518F9914D002EEE04 /* CoreGraphics.framework */,
+				A68DD71718F9914E002EEE04 /* UIKit.framework */,
+				A68DD73218F9914E002EEE04 /* XCTest.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		A68DD71918F9914E002EEE04 /* CountTextField */ = {
+			isa = PBXGroup;
+			children = (
+				A68DD74818F99180002EEE04 /* CTextField */,
+				A68DD72218F9914E002EEE04 /* CTFAppDelegate.h */,
+				A68DD72318F9914E002EEE04 /* CTFAppDelegate.m */,
+				A68DD72518F9914E002EEE04 /* Main.storyboard */,
+				A68DD72818F9914E002EEE04 /* CTFViewController.h */,
+				A68DD72918F9914E002EEE04 /* CTFViewController.m */,
+				A68DD72B18F9914E002EEE04 /* Images.xcassets */,
+				A68DD71A18F9914E002EEE04 /* Supporting Files */,
+			);
+			path = CountTextField;
+			sourceTree = "<group>";
+		};
+		A68DD71A18F9914E002EEE04 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				A68DD71B18F9914E002EEE04 /* CountTextField-Info.plist */,
+				A68DD71C18F9914E002EEE04 /* InfoPlist.strings */,
+				A68DD71F18F9914E002EEE04 /* main.m */,
+				A68DD72118F9914E002EEE04 /* CountTextField-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		A68DD73818F9914E002EEE04 /* CountTextFieldTests */ = {
+			isa = PBXGroup;
+			children = (
+				A68DD73E18F9914E002EEE04 /* CountTextFieldTests.m */,
+				A68DD73918F9914E002EEE04 /* Supporting Files */,
+			);
+			path = CountTextFieldTests;
+			sourceTree = "<group>";
+		};
+		A68DD73918F9914E002EEE04 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				A68DD73A18F9914E002EEE04 /* CountTextFieldTests-Info.plist */,
+				A68DD73B18F9914E002EEE04 /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		A68DD74818F99180002EEE04 /* CTextField */ = {
+			isa = PBXGroup;
+			children = (
+				A68DD74918F991B1002EEE04 /* CTFTextField.h */,
+				A68DD74A18F991B1002EEE04 /* CTFTextField.m */,
+			);
+			path = CTextField;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		A68DD70F18F9914D002EEE04 /* CountTextField */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A68DD74218F9914E002EEE04 /* Build configuration list for PBXNativeTarget "CountTextField" */;
+			buildPhases = (
+				A68DD70C18F9914D002EEE04 /* Sources */,
+				A68DD70D18F9914D002EEE04 /* Frameworks */,
+				A68DD70E18F9914D002EEE04 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = CountTextField;
+			productName = CountTextField;
+			productReference = A68DD71018F9914D002EEE04 /* CountTextField.app */;
+			productType = "com.apple.product-type.application";
+		};
+		A68DD73018F9914E002EEE04 /* CountTextFieldTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A68DD74518F9914E002EEE04 /* Build configuration list for PBXNativeTarget "CountTextFieldTests" */;
+			buildPhases = (
+				A68DD72D18F9914E002EEE04 /* Sources */,
+				A68DD72E18F9914E002EEE04 /* Frameworks */,
+				A68DD72F18F9914E002EEE04 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				A68DD73718F9914E002EEE04 /* PBXTargetDependency */,
+			);
+			name = CountTextFieldTests;
+			productName = CountTextFieldTests;
+			productReference = A68DD73118F9914E002EEE04 /* CountTextFieldTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		A68DD70818F9914D002EEE04 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = CTF;
+				LastUpgradeCheck = 0510;
+				ORGANIZATIONNAME = "Saif Al-Dilaimi";
+				TargetAttributes = {
+					A68DD73018F9914E002EEE04 = {
+						TestTargetID = A68DD70F18F9914D002EEE04;
+					};
+				};
+			};
+			buildConfigurationList = A68DD70B18F9914D002EEE04 /* Build configuration list for PBXProject "CountTextField" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = A68DD70718F9914D002EEE04;
+			productRefGroup = A68DD71118F9914D002EEE04 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				A68DD70F18F9914D002EEE04 /* CountTextField */,
+				A68DD73018F9914E002EEE04 /* CountTextFieldTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		A68DD70E18F9914D002EEE04 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A68DD72C18F9914E002EEE04 /* Images.xcassets in Resources */,
+				A68DD71E18F9914E002EEE04 /* InfoPlist.strings in Resources */,
+				A68DD72718F9914E002EEE04 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A68DD72F18F9914E002EEE04 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A68DD73D18F9914E002EEE04 /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		A68DD70C18F9914D002EEE04 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A68DD72418F9914E002EEE04 /* CTFAppDelegate.m in Sources */,
+				A68DD72A18F9914E002EEE04 /* CTFViewController.m in Sources */,
+				A68DD72018F9914E002EEE04 /* main.m in Sources */,
+				A68DD74B18F991B1002EEE04 /* CTFTextField.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A68DD72D18F9914E002EEE04 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A68DD73F18F9914E002EEE04 /* CountTextFieldTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		A68DD73718F9914E002EEE04 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = A68DD70F18F9914D002EEE04 /* CountTextField */;
+			targetProxy = A68DD73618F9914E002EEE04 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		A68DD71C18F9914E002EEE04 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A68DD71D18F9914E002EEE04 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		A68DD72518F9914E002EEE04 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A68DD72618F9914E002EEE04 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		A68DD73B18F9914E002EEE04 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A68DD73C18F9914E002EEE04 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		A68DD74018F9914E002EEE04 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		A68DD74118F9914E002EEE04 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		A68DD74318F9914E002EEE04 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "CountTextField/CountTextField-Prefix.pch";
+				INFOPLIST_FILE = "CountTextField/CountTextField-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		A68DD74418F9914E002EEE04 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "CountTextField/CountTextField-Prefix.pch";
+				INFOPLIST_FILE = "CountTextField/CountTextField-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		A68DD74618F9914E002EEE04 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/CountTextField.app/CountTextField";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "CountTextField/CountTextField-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "CountTextFieldTests/CountTextFieldTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Debug;
+		};
+		A68DD74718F9914E002EEE04 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/CountTextField.app/CountTextField";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "CountTextField/CountTextField-Prefix.pch";
+				INFOPLIST_FILE = "CountTextFieldTests/CountTextFieldTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		A68DD70B18F9914D002EEE04 /* Build configuration list for PBXProject "CountTextField" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A68DD74018F9914E002EEE04 /* Debug */,
+				A68DD74118F9914E002EEE04 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A68DD74218F9914E002EEE04 /* Build configuration list for PBXNativeTarget "CountTextField" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A68DD74318F9914E002EEE04 /* Debug */,
+				A68DD74418F9914E002EEE04 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		A68DD74518F9914E002EEE04 /* Build configuration list for PBXNativeTarget "CountTextFieldTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A68DD74618F9914E002EEE04 /* Debug */,
+				A68DD74718F9914E002EEE04 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = A68DD70818F9914D002EEE04 /* Project object */;
+}
